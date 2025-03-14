@@ -3,14 +3,14 @@ import React from 'react';
 const Banner = () => {
     return (
         <div
-            className="hero min-h-[80vh]"
+            className="hero min-h-[60vh] lg:min-h-[80vh]"
             style={{
                 backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
             }}>
             <div className="hero-overlay"></div>
             <div className="hero-content text-neutral-content text-center">
                 <div className="">
-                    <h1 className="mb-3 text-5xl font-bold text-white">Only the best discounts & coupons</h1>
+                    <h1 className="mb-3 text-4xl lg:text-5xl  font-bold text-white">Only the best discounts & coupons</h1>
                     <p className='text-white mb-3'>Over 17 working discount & coupon codes is active for 3 users, enjoy!</p>
                     <form className='max-w-xl mx-auto'>
                         <div className="flex items-center justify-between max-w-md mx-auto bg-white border border-gray-300 rounded-full shadow-md overflow-hidden">
